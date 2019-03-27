@@ -38,7 +38,7 @@ public class IHMQuestion2_1Test extends junit.framework.TestCase
         f.setAlwaysOnTop(true);
         f.setLocation(random.nextInt(500), random.nextInt(500));
         robot = new Robot();
-        robot.delay(100);
+        robot.delay(200);
     }
 
     protected void tearDown(){ // throws java.lang.Exception
